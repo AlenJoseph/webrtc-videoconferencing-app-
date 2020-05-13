@@ -1,0 +1,21 @@
+{
+  "name": "webrtc-multiparty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Alen Joseph",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "kurento-client": "^6.13.0",
+    "minimist": "^1.2.5",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
